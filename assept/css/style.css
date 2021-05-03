@@ -421,6 +421,8 @@ border-color: rgba(255, 255, 255, .5);}
 form {display: flex;
 flex-direction: column;}
 
+.form_it-in {display: flex;}
+
 input {width: 530px;
 border-top: transparent;
 border-left: transparent;
@@ -431,14 +433,14 @@ font: 400 14px 'Open Sans', sans-serif;
 color: #bdbdbd;}
 
 textarea {width: 530px;
-height: 150px;
 border-top: transparent;
 border-left: transparent;
 border-right: transparent;
 border-bottom: 1px solid #d6d6d6;
 font: 400 14px 'Open Sans', sans-serif;
 color: #bdbdbd;
-resize: none;}
+resize: none;
+margin-left: 40px;}
 
 button {background-color: #ff9b51;
 color: #ffffff;
